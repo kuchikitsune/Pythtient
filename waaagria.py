@@ -26,9 +26,9 @@ from iotc import (
 from iotc.aio import IoTCClient
 
 # Update the following details with your Azure IoT Central credentials
-device_id = "1atvi0sgndr"
-scope_id = "0ne00C9035C"
-key = "6PQG8VCYdmkkjdT43HbW+d7bgNxTs8pMOYJwcKY7PdU="
+device_id = ""
+scope_id = ""
+key = ""
 
 class MemStorage(Storage):
     def retrieve(self):
